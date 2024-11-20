@@ -1,0 +1,40 @@
+
+const express = require("express");
+const users= require(",/mock_data.json");
+const { appendFile } = require("fs");
+
+consta app = express();
+const port = 3000;
+
+//Routes
+app.get("/users", (req, res) =>{
+  return res.json(users);
+}
+  "id": 1,
+    "firstname": "John",
+    "lastname": "Doe",
+    "emailaddress": "ztejd@example.com",
+    "phonenumber": "123-456-7890",
+  res.send(html);
+//Rest api
+  app.get(/api/users/:id, (req, res) =>{
+    return res.json(users);
+  });
+app.get("/api/users", (req, res) =>{
+  
+});
+app.route("/api/users/:id"
+         
+         
+ .get("api/users/:id", (req, res) =>{
+   const id= Number(req.params.id);
+   const user = users.find(user => user.id === id);
+   retuen res.json(user);
+ })
+  .put((req, res) =>{}) 
+.delete((req,res)=>{})
+ appendFile.post((req, res) =>
+<!---
+wasim3624/wasim3624 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
